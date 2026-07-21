@@ -1,0 +1,24 @@
+# Snakemake
+.snakemake/
+
+# Generated outputs
+results/
+logs/
+
+# Raw sequencing data
+samples/
+data/
+
+# Large databases
+blast_db/
+taxonomy/
+reference/
+vep/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

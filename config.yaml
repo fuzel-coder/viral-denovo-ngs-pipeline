@@ -1,0 +1,26 @@
+sample_dir: "samples"
+
+results_dir: "results"
+
+threads: 8
+
+fastqc:
+  threads: 2
+
+fastp:
+  threads: 4
+
+spades:
+  threads: 8
+
+quast:
+  threads: 4
+
+bwa:
+  threads: 8
+
+blast:
+  threads: 4
+
+gatk:
+  threads: 4
